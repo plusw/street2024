@@ -5,7 +5,7 @@ const Pie = () => {
 
     useEffect(() => {
         // 从 JSON 文件获取数据
-        fetch('https://plusw.github.io/street2024/data.json')
+        fetch('https://plusw.github.io/street2024_/data.json')
             .then(response => response.json())
             .then(data => {
                 // 处理获取到的数据并更新 chartData 状态
