@@ -7,7 +7,7 @@ const TotalPie = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/street2024/public/data.json'); // Update the path accordingly
+                const response = await fetch('https://plusw.github.io/street2024/data.json'); // Update the path accordingly
                 const data = await response.json();
                 calculateTotalVotes(data.votesSets);
             } catch (error) {
