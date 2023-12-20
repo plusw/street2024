@@ -61,8 +61,8 @@ const Pie = () => {
                 {chartData &&
                     <>
 
-                        {chartData.map(chart => (
-                            <div className='a_pie' key={chart.id} id={chart.id} >
+                        {chartData.slice().reverse().map(chart => (
+                            <div className='a_pie' key={chart.id} id={chart.id}>
                                 {/* Each chart will be drawn here */}
                             </div>
                         ))}
