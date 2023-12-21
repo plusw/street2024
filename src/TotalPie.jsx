@@ -45,7 +45,7 @@ const TotalPie = () => {
             function drawChart() {
                 const data = google.visualization.arrayToDataTable(totalVotesChartData);
                 const options = {
-                    title: '截至12.20第二波总票数',
+                    title: '已採訪縣總票數',
                     colors: ['rgb(85, 225, 230)', 'rgb(32, 171, 76)', 'rgb(36, 125, 189)'],
                     pieSliceText: 'value',
                 };
