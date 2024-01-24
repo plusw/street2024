@@ -6,6 +6,8 @@ import React from 'react';
 function Header() {
     return (
         <header>
+            <h1>梦醒了，同学</h1>
+            <h1>实际得票,赖萧配:40%,侯赵配:33%,柯吴配:26%</h1>
             <h1>街頭有派對第二輪環島民調</h1>
         </header>
     );
